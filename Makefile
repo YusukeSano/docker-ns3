@@ -11,7 +11,3 @@ start:
 remove:
 	docker rm $(CONTAINER_NAME)
 	docker image rm $(IMAGE_NAME)
-
-visualize:
-	open -a XQuartz
-	socat TCP-LISTEN:6000,reuseaddr,fork UNIX-CLIENT:\"$DISPLAY\"

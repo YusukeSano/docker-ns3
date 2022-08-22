@@ -21,15 +21,15 @@ For NS-3.36 network simulator in Ubuntu Docker container.
   make remove
   ```
 
-- View Docker GUI output on Mac
+## Visualize
 
-  ```
-  make visualize
-  ```
-  
-  **Important:** `visualize` requires package installation
-  
-  ```
-  brew install socat
-  brew install --cask xquartz
-  ```
+Requires `XQuartz` installation
+
+```
+brew install --cask xquartz
+```
+
+Change setting from `XQuartz > Preferences... > Security`
+
+- Disable `Authenticate connections`
+- Enable `Allow connections from network clients`
