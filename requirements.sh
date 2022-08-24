@@ -40,7 +40,9 @@ apt-get install -y sqlite sqlite3 libsqlite3-dev
 apt-get install -y libxml2 libxml2-dev
 
 # Support for generating modified python bindings
-apt-get install -y cmake libc6-dev libc6-dev-i386 libclang-dev llvm-dev automake python3-pip
+apt-get install -y cmake libc6-dev libclang-dev llvm-dev automake python3-pip
+# E: Unable to locate package libc6-dev-i386 in aarch64
+apt-get install -y libc6-dev-i386
 python3 -m pip install cxxfilt cmake-format
 
 # A GTK-based configuration system
