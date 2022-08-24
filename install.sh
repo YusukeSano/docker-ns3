@@ -14,7 +14,8 @@ rm -rf /var/lib/apt/lists/*
 wget https://www.nsnam.org/releases/ns-allinone-3.36.1.tar.bz2
 tar xjf ns-allinone-3.36.1.tar.bz2
 
-# For click [Not working]
+# For click
+# Need to change [https://gitlab.com/nsnam/ns-3-dev/-/issues/670]
 # https://www.nsnam.org/docs/models/html/click.html
 cd ns-allinone-3.36.1
 git clone https://github.com/kohler/click.git
