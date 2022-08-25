@@ -53,3 +53,6 @@ apt-get install -y vtun lxc uml-utilities
 
 # Support for openflow module (requires libxml2-dev if not installed above) and Boost development libraries
 apt-get install -y libxml2 libxml2-dev libboost-all-dev
+
+# Support for graphing
+apt-get install -y gnuplot
